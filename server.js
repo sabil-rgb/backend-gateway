@@ -32,7 +32,7 @@ if (fs.existsSync("users.json")) {
   users = JSON.parse(fs.readFileSync("users.json"));
 } else {
   users = [
-    { username: "sabilofficial", pin: "201012", role: "owner" }
+    { username: "this-is-own", pin: "20100", role: "owner" }
   ];
   fs.writeFileSync("users.json", JSON.stringify(users, null, 2));
 }
